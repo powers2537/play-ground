@@ -6,4 +6,4 @@ jobs:
   test-action:
     runs-on: ubuntu-latest
     steps:
-      - uses: powers2537/bump-package-version-sample@master
+      - uses: powers2537/bump-package-version-sample@v1

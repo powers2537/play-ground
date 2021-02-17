@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: powers2537/bump-package-version-sample@v1
+        with:
+          path: 'right_here'

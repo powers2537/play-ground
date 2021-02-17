@@ -1,0 +1,8 @@
+{
+  "name": "play-ground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:powers2537/play-ground.git",
+  "author": "Connor <18531142+powers2537@users.noreply.github.com>",
+  "license": "MIT"
+}

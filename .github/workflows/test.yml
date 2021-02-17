@@ -1,9 +1,13 @@
 name: Test
 
-on: ['pull_request']
+on: 
+ pull_request:
+  types: [labeled,synchronize,unlabeled,edited]
 
 jobs:
   test-action:
     runs-on: ubuntu-latest
     steps:
-      - uses: powers2537/bump-package-version-sample@master
+      - uses: powers2537/bump-package-version-sample@main
+        with:
+          path: 'right_here'

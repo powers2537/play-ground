@@ -8,6 +8,6 @@ jobs:
   test-action:
     runs-on: ubuntu-latest
     steps:
-      - uses: powers2537/bump-package-version-sample@v1
+      - uses: powers2537/bump-package-version-sample@main
         with:
           path: 'right_here'
